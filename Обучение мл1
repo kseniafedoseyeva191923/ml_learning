@@ -1,0 +1,13 @@
+# %% 
+import numpy as np
+gk = np.array([45, 62, 78, 55, 90, 110, 48, 33, 75, 88])
+# %%
+print(gk[0])
+print(gk[-1])
+print(gk[2:5])
+
+glina = gk > 70
+pescha = gk < 50
+print(gk[glina])
+print(gk[pescha])
+# %%
